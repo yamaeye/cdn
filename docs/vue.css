@@ -49,6 +49,8 @@ div#app:empty::before {
 .pin {
   display: inline-block;
   position: relative;
+  line-height: 1.6rem;
+  word-spacing: 0.05rem;
 }
 
 .hide {
