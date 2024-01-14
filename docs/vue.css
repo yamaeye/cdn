@@ -55,7 +55,7 @@ div#app:empty::before {
   display: none;
   position: absolute;
   top: 100%;
-  left: 250px;
+  left: 265px;
   width: 500px;
   transform: translateX(-50%);
   padding: 8px;
