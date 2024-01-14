@@ -49,8 +49,6 @@ div#app:empty::before {
 .pin {
   display: inline-block;
   position: relative;
-  line-height: 1.6rem;
-  word-spacing: 0.05rem;
 }
 
 .hide {
@@ -91,6 +89,8 @@ body {
     color: #212121;
     font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
     font-size: 15px;
+    line-height: 1.6rem;
+    word-spacing: 0.05rem;
     text-align: justify;
     margin: 0;
     overflow-x: hidden;
