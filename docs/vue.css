@@ -54,14 +54,17 @@ div#app:empty::before {
 .hide {
   display: none;
   position: absolute;
+  z-index: 10;
   top: 100%;
-  left: 265px;
-  width: 500px;
-  transform: translateX(-50%);
+  left: 15px;
   padding: 8px;
   background-color: white;
   border: 1px solid #ccc;
   border-radius: 4px;
+  text-align: left;
+  overflow-y: auto;
+  white-space: nowrap;
+  box-sizing: border-box;
 }
 
 .pin:hover .hide {
